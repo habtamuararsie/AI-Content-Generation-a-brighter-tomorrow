@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0.0",
+  "project": {
+    "title": "A Brighter Tomorrow",
+    "subtitle": "From Our Roots to Our Future",
+    "narration_language": "en",
+    "visual_style": "Realistic cinematic documentary storytelling",
+    "target_total_duration_sec": 80.0,
+    "aspect_ratios": ["16:9", "9:16"],
+    "style_block": "Realistic 35mm cinematic documentary photography, warm natural Ethiopian highland daylight, authentic Ethiopian rural and modern textures, gentle film grain, shallow depth of field, centered subject composition safe for both 16:9 and 9:16 framing, natural human proportions, respectful realism, no generic stereotypes, no exaggerated costumes, no unrelated cultural motifs, no unreadable text or watermarks in frame.",
+    "character": {
+      "is_fictional": true,
+      "identity_anchor": "Fictional Ethiopian male character with warm medium-deep brown skin, expressive dark brown eyes, natural close-cropped curly Ethiopian hair, gentle earnest brow and nose shape, consistent facial bone structure and recognizable identity across all three life stages.",
+      "stages": {
+        "childhood": "Approximately 8-10 years old, slim boyish build, rounded youthful cheeks, expressive dark brown eyes, natural close-cropped curly black hair; wearing a clean hand-woven white cotton netela over a simple natural cotton tunic during traditional Qolo Temari study, or a plain everyday shirt during early formal schooling.",
+        "adolescence": "Approximately 15-17 years old, taller lean Ethiopian high-school student with slightly more defined jawline, same expressive dark brown eyes and natural short curly black hair, wearing a neat collared school shirt under a plain navy knit sweater with a worn backpack.",
+        "young_adulthood": "Approximately 23-26 years old, Ethiopian artificial intelligence developer, mature version of the exact same face with light natural stubble and calm confident expression, wearing realistic modern professional clothing (crisp casual button-down shirt under a tailored earth-toned jacket, without forced traditional costume)."
+      }
+    }
+  },
+  "music": {
+    "caption": "Gentle uplifting instrumental film score blending warm acoustic plucked strings, soft sustained pad textures, and subtle light piano motif, calm contemplative opening building gradually to a hopeful warm resolution, no vocals.",
+    "tempo_bpm": 82,
+    "key": "D major",
+    "instrumental": true,
+    "target_duration_sec": 80.0
+  },
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "scene_title": "Our roots",
+      "age_stage": "none",
+      "reason": "Establishes a fictionalized Ethiopian highland birthplace-inspired landscape and grounded community atmosphere.",
+      "duration_sec": 8.0,
+      "shot_type": "Extreme wide establishing shot",
+      "lighting": "Soft golden-hour sunrise over misty terraced highland valleys",
+      "transition": "fade_from_black",
+      "image_prompt": "Extreme wide establishing view of terraced rural Ethiopian highland valleys, traditional stone-and-thatch village homes, a quiet traditional Ethiopian stone church nestled among olive and acacia trees in the midground, soft morning mist and gentle village hearth smoke at sunrise, centered horizon composition.",
+      "motion_prompt": "Slow gentle aerial-like forward drift over the misty valley as morning sunlight warms the hillsides, subtle movement in the mist, fixed smooth camera path.",
+      "narration": {
+        "text": "High above the terraced valleys, where morning mist meets stone and earth, every story begins.",
+        "language": "en",
+        "draft_status": "draft_awaiting_radio_cut_review",
+        "style_instruction": "Calm, warm, unhurried documentary narrator"
+      },
+      "music_cue": "Soft ambient drone and gentle acoustic plucked motif enters quietly.",
+      "seed": 1001
+    },
+    {
+      "shot_id": "shot_02",
+      "scene_title": "Traditional learning",
+      "age_stage": "childhood",
+      "reason": "Honors traditional Yeqolo Temari (Nebab Bet) education as the character's earliest foundation of focus and literacy.",
+      "duration_sec": 8.0,
+      "shot_type": "Medium shot",
+      "lighting": "Dappled morning sunlight filtering through shade trees in a quiet stone courtyard",
+      "transition": "crossfade",
+      "image_prompt": "Medium shot of the fictional 9-year-old Ethiopian boy (Qolo Temari) wearing a clean white hand-woven cotton netela over a simple natural cotton tunic, seated respectfully on a stone step in the shaded courtyard of a traditional Ethiopian Orthodox stone church compound beneath old trees, attentively reading a traditional parchment brana manuscript resting on his lap (no legible text), with a few quiet fellow students and an elder teacher softly blurred in the courtyard behind, calm dignified atmosphere, centered subject.",
+      "motion_prompt": "Subtle natural breathing and slight downward glance along the parchment page, gentle dappled leaf shadows shifting softly in the morning breeze, static camera.",
+      "narration": {
+        "text": "Long before classrooms or screens, he learned patience and discipline beneath the shade of old trees.",
+        "language": "en",
+        "draft_status": "draft_awaiting_radio_cut_review",
+        "style_instruction": "Calm, warm, respectful documentary tone"
+      },
+      "music_cue": "Warm acoustic strings hold softly beneath the voice.",
+      "seed": 1002,
+      "cultural_notes": "Grounded in documented EOTC Abinet / Nebab Bet practice: Yeqolo Temari student in modest white cotton netela studying Ge'ez reading on brana (parchment) in a shaded church courtyard. Unverified objects or invented rituals are excluded."
+    },
+    {
+      "shot_id": "shot_03",
+      "scene_title": "The journey to school",
+      "age_stage": "childhood",
+      "reason": "Visualizes the physical and emotional transition from traditional learning to formal schooling.",
+      "duration_sec": 7.5,
+      "shot_type": "Wide tracking shot",
+      "lighting": "Bright clear morning sunlight along a highland dirt path",
+      "transition": "cut",
+      "image_prompt": "Wide shot at a three-quarter front angle of the same 9-year-old Ethiopian boy transitioning from traditional village life to formal schooling, wearing an everyday school shirt and backpack, walking along a sunlit red-earth rural highland footpath past traditional Ethiopian stone-and-thatch homes and the distant stone church trees toward a modest rural Ethiopian schoolhouse, centered composition.",
+      "motion_prompt": "Boy walks steadily forward along the sunlit path as camera gently tracks behind at walking pace, light dust and tall grass swaying softly.",
+      "narration": {
+        "text": "Each morning, dusty footpaths carried his curiosity further, step by steady step toward a wider world.",
+        "language": "en",
+        "draft_status": "draft_awaiting_radio_cut_review",
+        "style_instruction": "Calm, hopeful, steady pacing"
+      },
+      "music_cue": "Light rhythmic pulse enters gently, evoking forward motion.",
+      "seed": 1003
+    },
+    {
+      "shot_id": "shot_04",
+      "scene_title": "Discovering knowledge",
+      "age_stage": "childhood",
+      "reason": "Shows formal study of mathematics, science, and languages building his analytical curiosity.",
+      "duration_sec": 7.5,
+      "shot_type": "Medium close-up",
+      "lighting": "Soft natural window key light inside a modest wooden classroom",
+      "transition": "cut",
+      "image_prompt": "Medium close-up of the same 9-year-old Ethiopian boy in an everyday school shirt seated at a weathered wooden desk inside a modest rural Ethiopian classroom, open notebooks showing clean geometric shapes and science sketches (no unreadable text), classmates at nearby desks and a teacher near a green chalkboard softly blurred behind, green rural highland trees visible through the sunlit window, centered framing.",
+      "motion_prompt": "Gentle push-in toward the boy as he shifts focus from his open notebook toward the window light, calm natural movement.",
+      "narration": {
+        "text": "In modest classrooms, numbers, science, and new languages turned quiet questions into a sharper way of seeing.",
+        "language": "en",
+        "draft_status": "draft_awaiting_radio_cut_review",
+        "style_instruction": "Warm, inquisitive tone"
+      },
+      "music_cue": "Soft piano motif joins the acoustic strings.",
+      "seed": 1004
+    },
+    {
+      "shot_id": "shot_05",
+      "scene_title": "Discovering technology",
+      "age_stage": "adolescence",
+      "reason": "Marks the pivotal adolescent encounter with a computer for the first time.",
+      "duration_sec": 7.5,
+      "shot_type": "Medium close-up (three-quarter front)",
+      "lighting": "Warm afternoon room light blended with soft cool glow from a desktop monitor",
+      "transition": "crossfade",
+      "image_prompt": "Medium close-up of the same character now a 16-year-old Ethiopian high-school student in a neat collared school shirt and navy knit sweater, his school backpack resting beside his chair, leaning forward in quiet curiosity before a desktop computer monitor inside a modest rural Ethiopian secondary school classroom computer room, teacher and classmates softly blurred in background, rural Ethiopian highland trees visible through the side window, centered framing.",
+      "motion_prompt": "Slow gentle camera push-in as the teenager leans slightly closer, subtle reflection of screen light in his eyes, calm atmosphere.",
+      "narration": {
+        "text": "Years later, a single glowing screen opened a door he had never known existed.",
+        "language": "en",
+        "draft_status": "draft_awaiting_radio_cut_review",
+        "style_instruction": "Quiet sense of wonder"
+      },
+      "music_cue": "Subtle harmonic lift signaling a turning point.",
+      "seed": 1005
+    },
+    {
+      "shot_id": "shot_06",
+      "scene_title": "Learning to code",
+      "age_stage": "adolescence",
+      "reason": "Depicts active hands-on programming practice as he learns to express logic in code.",
+      "duration_sec": 7.5,
+      "shot_type": "Close-up",
+      "lighting": "Warm desk lamp rim light balanced with cool screen light",
+      "transition": "cut",
+      "image_prompt": "Close-up centered framing of the 16-year-old Ethiopian high-school student's hands typing purposefully on a computer keyboard beside open mathematics and programming notebooks with clean abstract logic diagrams (no unreadable text), blurred monitor screen glowing softly in the background, warm desk light mixed with daylight from a rural school window.",
+      "motion_prompt": "Gentle finger typing motion on the keyboard with shallow depth of field and a very slow subtle camera tilt upward toward his focused posture.",
+      "narration": {
+        "text": "Line by line, he learned to turn thoughts into instructions, making machines listen and respond.",
+        "language": "en",
+        "draft_status": "draft_awaiting_radio_cut_review",
+        "style_instruction": "Focused, steady, encouraging tone"
+      },
+      "music_cue": "Steady light rhythmic momentum builds softly.",
+      "seed": 1006
+    },
+    {
+      "shot_id": "shot_07",
+      "scene_title": "Overcoming challenges",
+      "age_stage": "adolescence",
+      "reason": "Adds emotional authenticity by showing persistence through difficult debugging and late-night study.",
+      "duration_sec": 7.5,
+      "shot_type": "Medium close-up",
+      "lighting": "Low-key warm evening study lamp in a quiet room",
+      "transition": "cut",
+      "image_prompt": "Medium close-up of the 16-year-old Ethiopian high-school student in his collared school shirt and navy knit sweater seated late in the evening under a warm study lamp inside a modest rural Ethiopian home room, backpack resting beside the chair, pencil in hand beside open mathematics and programming notebooks and a laptop (no unreadable text), furrowed concentration shifting to quiet determination, centered framing.",
+      "motion_prompt": "Teenager pauses, gently rubs his temple or nods slowly as an insight clicks, warm lamp light steady, minimal camera drift.",
+      "narration": {
+        "text": "Broken code and long nights tested his resolve, teaching him that every error holds an answer.",
+        "language": "en",
+        "draft_status": "draft_awaiting_radio_cut_review",
+        "style_instruction": "Reflective, resilient, grounded tone"
+      },
+      "music_cue": "Score softens briefly to reflective sustained chords before resolving upward.",
+      "seed": 1007
+    },
+    {
+      "shot_id": "shot_08",
+      "scene_title": "Building together",
+      "age_stage": "adolescence",
+      "reason": "Highlights peer collaboration and teamwork among young learners.",
+      "duration_sec": 7.5,
+      "shot_type": "Medium wide shot",
+      "lighting": "Bright warm afternoon sunlight streaming through a community hub window",
+      "transition": "crossfade",
+      "image_prompt": "Medium wide shot of the 16-year-old Ethiopian high-school student in his school shirt and navy sweater collaborating warmly around a wooden table inside his rural Ethiopian secondary school classroom with two Ethiopian classmates (natural hairstyles, realistic school shirts) and a teacher guiding gently in soft background focus, open notebooks, backpack, and a laptop on the table, rural highland hills visible through the sunlit window, main character centered.",
+      "motion_prompt": "Subtle natural gestures as the young people lean in and exchange ideas around the laptop and notebook, gentle camera parallax.",
+      "narration": {
+        "text": "Soon he was no longer building alone; shared ideas turned small experiments into real projects.",
+        "language": "en",
+        "draft_status": "draft_awaiting_radio_cut_review",
+        "style_instruction": "Warm, collaborative, upbeat cadence"
+      },
+      "music_cue": "Warm acoustic and piano layers open into a fuller uplifting harmony.",
+      "seed": 1008
+    },
+    {
+      "shot_id": "shot_09",
+      "scene_title": "Giving back",
+      "age_stage": "young_adulthood",
+      "reason": "Delivers the climax: as a software developer, he demonstrates a useful digital solution to his community.",
+      "duration_sec": 8.0,
+      "shot_type": "Medium shot",
+      "lighting": "Warm golden afternoon outdoor/veranda daylight",
+      "transition": "cut",
+      "image_prompt": "Medium shot of the same character now a 25-year-old Ethiopian artificial intelligence developer in crisp modern professional attire (casual button-down shirt and tailored earth-toned jacket) inside a bright modern Ethiopian tech workspace overlooking rural highland hills, laptop and desktop monitor showing clean abstract AI model curves and agricultural data visuals (no unreadable text), sharing and explaining the community-serving AI tool to an attentive rural Ethiopian neighbor in a modest white cotton netela and a local young high-school student, centered framing.",
+      "motion_prompt": "Developer gestures gently toward the tablet screen while a community elder nods warmly in appreciation, smooth subtle push-in.",
+      "narration": {
+        "text": "Now, as a developer, he brings technology home, building practical tools that serve his own community.",
+        "language": "en",
+        "draft_status": "draft_awaiting_radio_cut_review",
+        "style_instruction": "Warm, proud, sincere documentary tone"
+      },
+      "music_cue": "Uplifting emotional peak of the score, still leaving space for the voice.",
+      "seed": 1009
+    },
+    {
+      "shot_id": "shot_10",
+      "scene_title": "A brighter tomorrow",
+      "age_stage": "young_adulthood",
+      "reason": "Visual motif returning to the opening highland landscape, bridging roots and future before the title/end card.",
+      "duration_sec": 8.0,
+      "shot_type": "Wide pull-back shot",
+      "lighting": "Radiant golden sunset over the Ethiopian highlands matching Shot 01",
+      "transition": "fade_to_black",
+      "image_prompt": "Wide cinematic shot at a three-quarter rear and side angle of the 25-year-old Ethiopian AI developer in his crisp modern jacket standing peacefully beside a young rural student on a highland ridge overlooking terraced Ethiopian valleys, traditional stone-and-thatch village homes, and the distant stone church trees at golden sunset, warm light echoing the opening sunrise landscape, centered balanced composition.",
+      "motion_prompt": "Camera slowly pulls back and rises gently to reveal the vast sunlit highlands as clouds drift softly across the horizon.",
+      "narration": {
+        "text": "Rooted in where he began, every line of code becomes a promise for a brighter tomorrow.",
+        "language": "en",
+        "draft_status": "draft_awaiting_radio_cut_review",
+        "style_instruction": "Warm, resonant closing cadence"
+      },
+      "music_cue": "Opening acoustic motif returns gently and resolves on a warm sustained chord.",
+      "seed": 1010
+    }
+  ],
+  "end_card": {
+    "enabled": true,
+    "duration_sec": 3.0,
+    "title": "A Brighter Tomorrow",
+    "subtitle": "From Our Roots to Our Future",
+    "ai_disclosure_text": "Created with AI assistance (AI visuals, local TTS, original score, FFmpeg). Fictional story."
+  }
+}

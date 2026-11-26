@@ -1,0 +1,47 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter / Colab checkpoints
+.ipynb_checkpoints/
+
+# Temporary working artifacts
+outputs/tmp/
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated outputs and temporary production files
+outputs/archive/
+outputs/clips/
+outputs/exports/
+outputs/manifests/
+outputs/music/
+outputs/narration/
+outputs/reports/
+outputs/subtitles/
+outputs/tmp/
+
+# Local submission videos and reports
+submission/
+
+# Local editor settings
+.vscode/

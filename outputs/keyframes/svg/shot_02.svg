@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#567866"/>
+      <stop offset="100%" stop-color="#d6c498"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="448" cy="180" r="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fae0a2" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#fae0a2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+  <path d="M0,430 Q320,330 640,395 T1280,370 L1280,720 L0,720 Z" fill="#707662"/>
+  <path d="M0,500 Q380,430 760,485 T1280,465 L1280,720 L0,720 Z" fill="#585e4e"/>
+  <rect x="0" y="540" width="1280" height="180" fill="#807462"/>
+  <rect x="80" y="210" width="210" height="330" rx="8" fill="#6b5e4c" opacity="0.75"/><path d="M135,540 L135,390 A50,50 0 0,1 235,390 L235,540 Z" fill="#2c241d" opacity="0.85"/><ellipse cx="1020" cy="210" rx="220" ry="130" fill="#3a5934" opacity="0.75"/>
+</svg>

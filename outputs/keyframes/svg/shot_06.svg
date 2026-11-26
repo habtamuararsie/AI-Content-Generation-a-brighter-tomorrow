@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#162030"/>
+      <stop offset="100%" stop-color="#425262"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="640" cy="273" r="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8cd4ff" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#8cd4ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+  <path d="M0,430 Q320,330 640,395 T1280,370 L1280,720 L0,720 Z" fill="#2c3844"/>
+  <path d="M0,500 Q380,430 760,485 T1280,465 L1280,720 L0,720 Z" fill="#222a34"/>
+  <rect x="0" y="540" width="1280" height="180" fill="#4c3828"/>
+  <rect x="410" y="180" width="460" height="270" rx="14" fill="#182635" stroke="#6cc4ff" stroke-width="4" opacity="0.9"/><path d="M450,370 Q540,260 640,310 T830,240" fill="none" stroke="#8de0ff" stroke-width="5" opacity="0.85"/>
+</svg>
